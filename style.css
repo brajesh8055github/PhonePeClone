@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@500;600&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(103, 3, 149);
+    padding: 0 10px;
+
+}
+
+.top i {
+    font-size: 25px;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    background: rgb(238, 238, 238);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 10px;
+    border-radius: 40px;
+}
+
+.hero22 {
+    background: #fff;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background: #fff;
+    margin: 0 0 40px 0;
+}
+
+.cl {
+    border: 1px solid rgb(244, 244, 244);
+    margin: 10px 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cl i {
+    font-size: 20px;
+    padding: 12px 14px;
+    border-radius: 50%;
+    background: rgb(103, 3, 149);
+
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-22 {
+    background: #fff;
+}
+
+.hero-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background: #fff;
+}
+
+.hero-2 .cl i {
+    font-size: 20px;
+    padding: 12px 14px;
+    border-radius: 50%;
+    background: rgb(67, 160, 109);
+
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(149, 149, 149, 0.2);
+
+}
+
+.footer .fa-paper-plane {
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(1, 203, 1);
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
